@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.container{
+    width:90%;
+    margin:0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#067;
+    color:#fff;
+    height: 10vh;
+    padding:0 2rem;
+}
+.header h2{
+    margin:0;
+    font-size:2.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.header .special{
+    background:blue;
+    color:#fff;
+    padding:1rem 2rem;
+    border-radius: 15px;
+}
+.nav ul{
+    display:flex;
+    align-items: center;
+    list-style: none;
+}
+.nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left:1.5rem;
+}
+#hero{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/computer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:70vh;
+    display:flex;align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+#hero h2{
+    font-size: 5rem;
+    margin:0;
+}
+#hero p{
+    margin-top:1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+#hero a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    background:#067;
+    color:#fff;
+    padding:1rem 3rem;
+    border-radius: 20px;
+
+    text-transform: uppercase;
+}
+.mysvg{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    cursor: pointer;
+    width:4rem;
+}
+.section{
+    padding:10rem 0;
+}
+.head{
+    margin:0;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.pro_languages{
+    display:grid;
+    grid-template-columns: repeat(2,minmax(auto,450px));
+    justify-content: center;
+    gap:5rem;
+   
+}
+.pro{
+    display:flex;
+    align-items: center;
+}
+.pro p{
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+.pro img{
+    width:5rem;
+    margin-right: 1rem;
+}
+.free{
+    padding:5rem 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #067;
+    color:#fff;
+    text-align: center;
+}
+.free h1{
+    margin:0;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.free p{
+    margin-top:3rem;
+    font-size: 1.5rem;
+    width:50rem;
+    line-height: 1.5;
+}
+.form{
+    max-width: 800px;
+    margin:0 auto;
+}
+.form label{
+    font-size: 1.5rem;
+}
+
+.form input,
+.form textarea{
+    width:100%;
+    padding:1rem;
+    margin:1rem 0;
+}
+.form textarea{
+    resize: vertical;
+    min-height:7.5rem;
+    max-height: 20rem;
+}
